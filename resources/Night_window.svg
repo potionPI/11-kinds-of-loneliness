@@ -1,8 +1,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3710 2850" preserveAspectRatio="none">
 
-<!-- ++++++++++ Light Blue = Pensiveness ++++++++++ -->
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="371px" height="285px" viewBox="0 0 3710 2850" preserveAspectRatio="xMidYMid meet">
-<g id="layerPensiveness" fill="#d2e8e2" stroke="none">
+ <!-- ++++++++++ Light Blue = Pensiveness ++++++++++ -->
+ <g id="layerPensiveness" fill="#d2e8e2" stroke="none">
  <path d="M2385 2041 c-88 -23 -190 -103 -226 -178 -31 -64 -31 -156 1 -237 31 -80 89 -135 187 -178 68 -29 89 -33 163 -33 97 0 157 23 216 82 50 49 67 90 72 169 9 147 -68 278 -201 344 -66 32 -157 46 -212 31z"/>
  </g>
  <!-- ++++++++++ (end) Light Blue = Pensiveness ++++++++++ -->
