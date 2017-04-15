@@ -1,0 +1,121 @@
+span:hover {
+	font-family: 'Annie Use Your Telescope', 'Regular';
+}
+.disgust {
+	color: #AB94AB;
+}
+.loathing {
+	color: #8A738A;
+}
+#line1Span:hover {
+	cursor: pointer;
+	text-shadow: 0px 0px 20px #FFFFFF;
+}
+#line1Span:active {
+	cursor: default;
+	text-decoration: overline underline;
+	color: #FFFFFF;
+}
+#line2Span:hover {
+	cursor: pointer;
+}
+#line2Span:active {
+	cursor: default;
+	text-decoration: overline underline;
+	color: #FFFFFF;
+}
+#line3Span:hover {
+	cursor: pointer;
+}
+#line3Span:active {
+	cursor: default;
+	text-decoration: overline underline;
+	color: #FFFFFF;
+}
+.mainContent {
+	height: 950px;
+}
+#rainer {
+	position: absolute;
+	background: rgba(0,0,0,0);
+	left: 0px;
+	width: 790px;
+	height: 350px;
+	top: 0px;
+	z-index: -1;
+}
+
+
+button {
+	font-family: 'Indie Flower', 'Regular';
+	font-size: 20px;
+	outline: none;
+	color: rgba(0,0,0,1);
+	background: #C7B2C7;
+	border: none;
+}
+.yesButton {
+	background: #C7B2C7;
+}
+.noButton {
+	background: #AB94AB;
+}
+.whyButton {
+	background: #8A738A;
+}
+button:hover {
+	color: #C7B2C7;
+	background: rgba(0,0,0,.5);
+	cursor: pointer;
+}
+.yesButton:hover {
+	color: #C7B2C7;
+}
+.noButton:hover {
+	color: #AB94AB;
+}
+.whyButton:hover {
+	color: #C7B2C7;
+}
+button:active {
+	opacity: 0.5;
+	cursor: default;
+}
+
+.theWholeTree {
+	position: relative;
+	top: -800px;
+	opacity: .1;
+	z-index: -1;
+}
+.theWholeTree svg {
+	position: absolute;
+}
+
+.theWholeUmbrella {
+	position: relative;
+	width: 250px;
+	top: 50px;
+	-ms-transform: rotate(-200deg); /* IE 9 */
+    -webkit-transform: rotate(-200deg); /* Safari */
+    transform: rotate(-200deg); /* Standard syntax */
+    left: 500px;
+}
+.theWholeUmbrella svg {
+	position: absolute;
+}
+
+.boredomFruit {
+	width: 70px;
+	position: absolute;
+	top: 900px;
+	left: 570px;
+}
+.boredomFruit:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+.boredomFruit:active {
+	opacity: 0.5;
+	cursor: default;
+}

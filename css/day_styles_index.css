@@ -1,0 +1,103 @@
+/*Main content*/
+div.mainContent {
+	padding: 50px 50px 250px 50px;
+}
+
+div.mainContent h1 {
+	color: white;
+	text-align: center;
+	font-family: arial black;
+}
+
+div.mainContent p {
+	color: black;
+	font-family: arial;
+	font-size: 19px;
+	line-height: 40px;
+}
+
+div.mainContent p span {
+	color: white;
+}
+
+div.mainContent .window {
+	height: 500px;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+div.mainContent .captionSecret {
+	text-align: center;
+	opacity:0;
+}
+
+div.mainContent .caption {
+	text-align: center;
+}
+
+div.mainContent .caption:hover ~ .captionSecret{
+	opacity:1;
+}
+
+.refreshHint {
+	position: absolute;
+	height: 50px;
+	top: 1200px;
+	left: 500px;
+	opacity:0;
+}
+
+.dayHouse {
+	height: 200px;
+	float: right;
+	opacity: .7;
+}
+
+.dayHouse:hover ~ .refreshHint {
+	opacity: .7;
+}
+
+.P:hover:after {
+	content: "P";
+}
+
+.r:hover:after {
+	content: "r";
+}
+
+.e:hover:after {
+	content: "e";
+}
+
+.s:hover:after {
+	content: "s";
+}
+
+.aSpace:hover:after {
+	content: " ";
+}
+
+.R:hover:after {
+	content: "R";
+}
+/*End of Main content*/
+
+#finFin1 {
+	position: absolute;
+	display: block;
+	top: 30px;
+	color: white;
+	opacity: 0.5;
+	font-size: 17px;
+}
+#finFin2 {
+	position: absolute;
+	display: block;
+	top: 110px;
+	left: 330px;
+	color: white;
+	opacity: 0.5;
+	font-size: 17px;
+}

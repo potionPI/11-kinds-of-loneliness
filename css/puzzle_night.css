@@ -1,0 +1,27 @@
+#hoverpiece:hover {
+	font-family: 'Annie Use Your Telescope', 'Regular';
+	font-size: 22px; 
+	cursor: pointer;
+}
+
+#puzzlepiece {
+	display: none;
+}
+
+.puzzleFruit {
+	background-image: url('https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/0d1fd864/resources/puzzle_fruit.svg');
+	background: url('https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/0d1fd864/resources/puzzle_fruit.svg') center center no-repeat;
+	height: 50px;
+	width: 50px;
+	border: none;
+	outline: none;
+}
+
+.puzzleFruit:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.puzzleFruit:active {
+	opacity: 0.5;
+}

@@ -1,0 +1,33 @@
+/*Main content*/
+div.mainContent {
+	padding: 50px 50px 250px 50px;
+}
+
+div.mainContent div.window {
+	background-color: black;
+	height: 500px;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+div svg {
+	margin-top: 55px;
+	margin-left: 10px;
+	position: absolute;
+	height: 390px;
+	width: 480px;
+}
+.afterDescription {
+	font-family: 'Architects Daughter', 'Regular';
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.nightHouse {
+	height: 200px;	
+	float: right;
+}
+/*End of Main content*/

@@ -1,0 +1,53 @@
+.wheel {
+	pointer-events: none;
+	display: block;
+	height: 800px;
+	width: 800px;
+	padding-left: 150px;
+	margin-bottom: -400px;
+	margin-top: -20px;
+	opacity: .9;
+	user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: 'Annie Use Your Telescope', 'Regular';
+	font-size: 22px; 
+}
+
+.popPuzzle {
+	position: absolute;
+	display: block;
+	top: 410px;
+	left: 170px;
+	opacity: 0;
+}
+
+.popPuzzle:hover {
+	opacity: 1;
+}
+
+.aboutFruit {
+	background-image: url('https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/df19c29e/resources/about_fruit.svg') no-repeat;
+	background: url('https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/df19c29e/resources/about_fruit.svg') no-repeat;
+	height: 45px;
+	width: 45px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.aboutFruit:hover {
+	opacity: 0.9;
+}
+
+.aboutFruit:active {
+	opacity: 0.5;
+}

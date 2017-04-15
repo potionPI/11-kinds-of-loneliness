@@ -1,0 +1,290 @@
+body {
+	overflow-x: hidden;
+}
+
+#firstPH {
+	margin-bottom: 300px;
+}
+
+/*Everything in window*/
+div.pensWinWrapper {
+	height: 500px;
+	width: 500px;
+	overflow: scroll;
+	overflow-x: hidden;
+	position: relative;
+	left: 90px;
+	border-radius: 20px;
+}
+div.pensiveWindow {
+  height: 3001px;
+  width: 500px;
+  background: #000000;
+  background: -webkit-linear-gradient(#7F8E8D, #000000);
+  background: -o-linear-gradient(#7F8E8D, #000000);
+  background: -moz-linear-gradient(#7F8E8D, #000000);
+  background: linear-gradient(#7F8E8D, #000000);
+  position: absolute;
+}
+
+.circle {
+	display: block;
+	background: #FEFFE3;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	background: radial-gradient(circle at center center, #FEFFE3, rgba(0,0,0,0));
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	position: absolute;
+}
+#lum1 {
+	left: 200px;
+	top: 200px;
+}
+#lum2 {
+	left: 300px;
+	top: 400px;
+}
+#lum3 {
+	left: 100px;
+	top: 150px;	
+}
+#lum4 {
+	left: 150px;
+	top: 800px;
+}
+#lum5 {
+	left: 100px;
+	top: 900px;
+}
+#lum6 {
+	left: 300px;
+	top: 1100px;
+}
+#lum7 {
+	left: 400px;
+	top: 1300px;
+}
+#lum8 {
+	left: 100px;
+	top: 1390px;
+}
+
+.buildings div {
+	position: absolute;
+	width: 500px;
+	bottom: 0;
+}
+.road div {
+	position: absolute;
+	width: 500px;
+	bottom: 0;
+}
+.lampPosts {
+	position: absolute;
+	width: 500px;
+	bottom: 0;
+}
+.lampLights {
+	position: absolute;
+	width: 500px;
+	bottom: 0;
+}
+.clouds {
+	position: absolute;
+	width: 500px;
+	top: 0;
+}
+/*(end) Everything in window*/
+
+/*Window sill*/
+.mainContent {
+	height: 1590px;
+}
+
+.windowSill {
+	position: absolute;
+	width: 593px;
+	left: 90px;
+	top: 1050px;
+}
+/*(end) Window sill*/
+
+/*Curtain*/
+.curtainPole {
+	position: absolute;
+	width: 900px;
+	top: 500px;
+	left: -50px;
+}
+.curtainPole:hover {
+	cursor: pointer;
+}
+
+.curtainCloth {
+	position: absolute;
+	width: 900px;
+	top: 500px;
+	left: -50px;
+	pointer-events: none;
+}
+
+.curtainRings {
+	position: absolute;
+	width: 900px;
+	top: 500px;
+	left: -50px;
+	pointer-events: none;
+}
+
+.curtainBulbs {
+	position: absolute;
+	width: 900px;
+	top: 500px;
+	left: -50px;
+	pointer-events: none;
+}
+/*(end) Curtain*/
+
+/*Closed Curtain*/
+.closedCloth {
+	position: absolute;
+	width: 900px;
+	top: 500px;
+	left: -50px;
+	z-index: 20;
+}
+.closedCloth:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+.closedRings {
+	position: absolute;
+	width: 900px;
+	top: 500px;
+	left: -50px;
+}
+/*(end) Closed Curtain*/
+
+/*Bunny Plush*/
+.bunny div {
+	position: absolute;
+	width: 250px;
+	top: 830px;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+/*(end) Bunny Plush*/
+
+/*Lamp*/
+.lampBottom {
+	position: absolute;
+	width: 400px;
+	top: 700px;
+	left: 600px;
+	pointer-events: none;
+}
+.lampPole {
+	position: absolute;
+	width: 400px;
+	top: 200px;
+	left: 600px;
+	pointer-events: none;
+}
+.lampPole2 {
+	position: absolute;
+	width: 400px;
+	top: 700px;
+	left: 600px;
+	pointer-events: none;
+}
+.lampStrings {
+	position: absolute;
+	width: 400px;
+	top: 200px;
+	left: 600px;
+	pointer-events: none;
+}
+.lampBaubles {
+	position: absolute;
+	width: 400px;
+	top: 200px;
+	left: 600px;
+	pointer-events: none;
+}
+.lampShade {
+	position: absolute;
+	width: 400px;
+	top: 200px;
+	left: 600px;
+	pointer-events: none;
+}
+/*(end) Lamp*/
+
+/*floor*/
+.stripFloor {
+	position: absolute;
+	width: 300px;
+	top: 350px;
+}
+#floor1 {
+	left: 50px;
+}
+#floor2 {
+	left: 430px;
+}
+#floor3 {
+	left: 50px;
+	top: 1800px;
+}
+#floor4 {
+	left: 430px;
+	top: 1800px;
+}
+/*(end) floor*/
+
+/*pensiveness fruit*/
+.pensiveFruit {
+	width: 100px;
+	position: absolute;
+	top: 1630px;
+}
+.pensiveFruit:hover {
+	opacity: .9;
+	cursor: pointer;
+}
+.pensiveFruit:active {
+	opacity: .5;
+	cursor: default;
+}
+/*(end) pensiveness fruit*/
+
+
+#lastThing {
+	position: absolute;
+	top: 1400px;
+	opacity: 0.5;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+#lastThing:hover {
+	opacity: 1;
+}
+
+.sadness {
+	color: #BAE8DC;
+}
+.grief {
+	color: #93E8D1;
+}
+
+span:hover {
+	font-family: "Annie Use Your Telescope", "Regular";
+}

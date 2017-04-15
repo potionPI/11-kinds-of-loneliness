@@ -1,0 +1,54 @@
+.mainContent p span:hover {
+	cursor: pointer;
+	font-family: 'Annie Use Your Telescope', 'Regular';
+}
+.mainContent p span:active {
+	cursor: default;
+}
+.anticipation {
+	color: #FFE091;
+}
+.vigilance {
+	color: #FFD773;
+}
+
+button {
+	border: none;
+	outline: none;
+	font-family: 'Indie flower', 'Regular';
+	font-size: 20px;
+	background-color: #FFEBB8;
+	border-radius: 10px;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #FFD773;
+}
+button:active {
+	cursor: default;
+	background-color: #FFE091;
+	color: white;
+}
+
+p {
+	text-shadow: 0 2px 10px #FFFFFF;
+}
+
+.interB {
+	background-color: rgba(0,0,0,0);
+}
+.interB:hover {
+	background-color: rgba(0,0,0,0);
+}
+.interB:active {
+	background-colro: rgba(0,0,0,0);
+	opacity: 0.5;
+	cursor: default;
+}
+.interFruit {
+	width: 70px;
+}
+.interFruit:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}

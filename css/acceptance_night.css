@@ -1,0 +1,79 @@
+.Trust {
+	color: #E4FFDE;
+}
+
+.Admiration {
+	color: #DDFFD6;
+}
+
+span:hover {
+	font-family: 'Annie Use Your Telescope', 'Regular';
+	font-size: 22px; 
+	cursor: pointer;
+}
+
+div.tipDiv p {
+	font-family: 'Architects Daughter', 'Regular';
+}
+
+em:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.giftContainer {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	margin-left: 450px;
+	margin-top: -200px;
+	z-index: 0;
+}
+
+.boxLid {
+	position: absolute;
+	height: 200px;
+	width: 202px;
+	top: 0;
+	left: 0;
+}
+
+.boxLid:hover {
+	cursor: pointer;
+}
+
+.boxBottom {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+}
+
+.acceptanceFruit {
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	left: 60px;
+	top: 60px;
+}
+
+.acceptanceFruit:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.acceptanceFruit:active {
+	opacity: 0.5;
+}
+
+#giftHover:hover {
+	font-family: 'Architects Daughter', 'Regular';
+	font-size: 22px;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 0px 0px 5px #FFFFFF;
+	transition: text-shadow 1s ease-out;
+	-webkit-transition: text-shadow 1s ease-out;
+	-moz-transition: text-shadow 1s ease-out;
+	-ms-transition: text-shadow 1s ease-out;
+	-o-transition: text-shadow 1s ease-out;
+}

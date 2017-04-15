@@ -1,0 +1,22 @@
+.mageConta {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	top: 30px;
+}
+.dayPlut {
+	position: absolute;
+}
+.refreshHint {
+	position: absolute;
+	width: 100px;
+	top: 150px;
+	left: 150px;
+	opacity: 0;
+}
+.refreshHint:hover {
+	opacity: 0.6;
+}
+.breaker {
+	height: 450px;
+}

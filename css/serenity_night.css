@@ -1,0 +1,40 @@
+.Joy {
+	color: #FDFFCC;
+}
+
+.Ecstacy {
+	color: #FCFFB5;
+}
+
+span:hover {
+	font-family: 'Annie Use Your Telescope', 'Regular';
+	font-size: 22px; 
+	cursor: pointer;
+}
+
+#poem {
+	font-style: italic;
+	opacity: 0.4;
+	margin-left: 150px;
+}
+
+button {
+	background-image: url('https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/0d1fd864/resources/serenity_fruit.svg');
+	background: url('https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/0d1fd864/resources/serenity_fruit.svg') center center no-repeat;;
+	outline: none;
+	border: none;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 70px;
+	left: 500px;
+}
+
+button:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+button:active {
+	opacity: 0.5;
+}

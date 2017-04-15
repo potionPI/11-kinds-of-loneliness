@@ -1,0 +1,115 @@
+svg {
+	z-index: 10;
+}
+
+.aDoor {
+	right: 50px;
+	position: relative;
+	height: 400px;
+	width: 350px;
+	margin: 0 auto;
+}
+.aDoor div svg {
+	position: absolute;
+}
+.aDoor div {
+	position: absolute;
+}
+
+.doorHollow svg {
+	height: 293px;
+	width: 220px;
+	left: 1px;
+	top: 1px;
+}
+.doorHollow svg g:hover {
+	cursor: pointer;
+}
+.doorHollow svg g:active {
+	cursor: default;
+}
+
+.doorClosed {
+	height: 400px;
+	width: 350px;
+	position: absolute;
+	z-index: 30;
+}
+.doorClosed svg g:hover {
+	cursor: pointer;
+}
+.doorClosed svg g:active {
+	cursor: default;
+}
+
+.doorOpen {
+	height: 400px;
+	width: 350px;
+}
+.doorOpen svg g:hover {
+	cursor: pointer;
+}
+.doorOpen svg g:active {
+	cursor: default;
+}
+
+button {
+	color: #C4D2C7;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px 0 10px 0;
+	outline: none;
+	border: 0;
+	font-family: 'Indie Flower', 'Regular';
+	font-size: 15px;
+	padding: 5px;
+}
+button:hover {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.5);
+}
+button:active {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.9);
+}
+.content a {
+	color: #C4D2C7;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px 0 10px 0;
+	outline: none;
+	border: 0;
+	font-family: 'Indie Flower', 'Regular';
+	font-size: 15px;
+	padding: 5px;
+	text-decoration: none;
+}
+.content a:hover {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.5);
+}
+.content a:active {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.apprehensionFruit {
+	top: 100px;
+	left: 65px;
+	z-index: 20;
+	height: 100px;
+	width: 100px;
+}
+.apprehensionFruit:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+.apprehensionFruit:active {
+	opacity: 0.5;
+}
+
+hr {
+	opacity: 0.1;
+}
+
+#afterThing {
+	margin-top: -50px;
+}

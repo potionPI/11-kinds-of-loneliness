@@ -1,0 +1,81 @@
+.anger {
+	color: #E3B7B4;
+}
+.rage {
+	color: #BD918E;
+}
+span:hover {
+	font-family: 'Annie Use Your Telescope', 'Regular';
+}
+.mainContent p span.Annoyance:hover {
+	cursor: pointer;
+}
+span.anger:hover {
+	cursor: pointer;
+}
+span.rage:hover {
+	cursor: pointer;
+}
+.annoyanceFruit {
+	width: 50px;
+}
+.annoyanceFruit:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+.annoyanceFruit:active {
+	opacity: 0.5;
+	cursor: default;
+}
+#fruitText {
+	text-shadow: 0 0 5px #FFEEED;
+	color: #FFFFFF;
+	font-style: italic;
+}
+
+#backgroundSVG svg {
+	position: absolute;
+	width: 2000px;
+	bottom: 0;
+}
+#pane {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 600px;
+	height: auto;
+}
+#box {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 240px;
+	height: 165px;
+	top:100px;
+	opacity: .6;
+}
+#box svg {
+	position: absolute;
+}
+#frontCarsSVGs {
+	position: absolute;
+	width: 2000px;
+	bottom: 0;
+	z-index: 1;
+}
+#frontLightsSVGs {
+	position: absolute;
+	width: 2000px;
+	bottom: -10px;
+	z-index: 1;
+}
+.theWholeCity {
+	border: 10px solid black;
+	border-radius: 10px;
+	position: relative;
+	background-color: #000000;
+	height: 400px;
+	overflow-x:auto;
+	overflow-y: hidden;
+	background: black; 
+}
