@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Daytime Smiles</title>
+        <meta name="description" content="11 Kinds of Loneliness by Richard Yates; Creative Project for English Class">
+        <meta name="author" content="PotionPI, Cynthia Wu">
+        <meta name="keywords" content="Night,symbolic,11 Kinds of Loneliness by Richard Yates,Richard Yates,English Class,11th Grade">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="../Css/day_styles.css" />
+        <link rel="stylesheet" type="text/css" href="../Css/day_styles_index.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script>
+            window.onkeyup = function(e) {
+                var event = e.which || e.keyCode || 0;
+
+                if (event == 82) { // R Key
+                    window.location.href = 'innight.html'; // Navigate to URL
+                }
+
+            }
+
+            function checkFini() {
+              if ((sessionStorage.about !== undefined) && (sessionStorage.acceptance !== undefined) && (sessionStorage.annoyance !== undefined) && (sessionStorage.apprehension !== undefined) && (sessionStorage.boredom !== undefined) && (sessionStorage.distraction !== undefined) && (sessionStorage.interest !== undefined) && (sessionStorage.pensiveness !== undefined) && (sessionStorage.puzzle !== undefined) && (sessionStorage.serenity !== undefined)) {
+                $("#finFin1").show();
+                $("#finFin2").show();
+              } else {
+                $("#finFin1").hide();
+                $("#finFin2").hide();
+              }
+            }
+            $(document).ready(function() {
+              checkFini();
+            })
+        </script>
+
+    </head>
+    <body>
+
+<!--+++ Don't touch below +++-->
+<!--Menu-->
+        <nav class="topnav" id="topnav">
+            <a href="index.html" class="navlogo"><img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/81e60180/resources/Day_logo.svg" alt="day logo"></a>
+            <div class="wordnav">
+                <a href="10day_about.html" class="navlink">^_^</a>
+                <a href="9day_puzzle.html" class="navlink">^_^</a>
+                <a href="1day_serenity.html" class="navlink">^_^</a>
+                <a href="2day_acceptance.html" class="navlink">^_^</a>
+                <a href="3day_apprehension.html" class="navlink">^_^</a>
+                <a href="4day_distraction.html" class="navlink">^_^</a>
+                <a href="5day_pensiveness.html" class="navlink">^_^</a>
+                <a href="6day_boredom.html" class="navlink">^_^</a>
+                <a href="7day_annoyance.html" class="navlink">^_^</a>
+                <a href="8day_interest.html" class="navlink">^_^</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">&#9776;</a>
+        </nav>
+        <script>
+            function menuFunction() {
+                var x = document.getElementById("topnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <hr class="navhr">
+<!--End of Menu-->
+<!--Profile-->
+        <div class="profileDiv">
+            <img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/abb26e77/resources/Day_avatar.svg" alt="profile image for Person">
+            <p>Person</p>
+        </div>
+<!--End of Profile-->
+<!--++++++-->
+
+
+<!--+++ Start Doing Stuff now ++-->
+<!--Main content-->
+        <div class="mainContent">
+            <h1>(^_^)</h1>
+            <p>It's quite possible for everyone to be always <span class="P">[happy]</span>, don't you think? It's perfectly easy to please <span class="r">[everyone]</span>. Remember, when you sell a product you need to make sure everyone knows how <span class="e">[wonderful]</span> and <span class="s">[jovial]</span> and <span class="s">[good]</span> a person you are. You've got to build a house with many <span class="aSpace">[windows]</span>.</p>
+            <img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/3a2d9d66/resources/Day_window.svg" alt="smiling window panes" class="window">
+            <p class="caption">And looking out the window for the eyes of all the onlookers, is your brilliant <span class="R">[smile]</span>.</p>
+            <p class="captionSecret">There isn't any contradiction here, isn't that right?</p>
+            <img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/ccfc5ea1/resources/Day_house.svg" alt="smile-house with a secret" class="dayHouse">
+            <img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/7b1f682c/resources/R-button.svg" alt="refresh button, or re-look button. See closer by refresh!" class="refreshHint">
+            <p class="content" id="finFin1">(^_^)(^_^)(^_^)(^_^)(^_^)</p>
+            <p class="content" id="finFin2">(^_^)(^_^)(^_^)(^_^)(^_^)(^_^)(^_^)(^_^)(^_^)(^_^)(^_^)</p>
+        </div>
+<!--End of Main content-->
+<!--++++++-->
+    </body>
+</html>

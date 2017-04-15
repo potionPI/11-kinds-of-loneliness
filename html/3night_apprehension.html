@@ -1,0 +1,163 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Apprehension</title>
+        <meta name="description" content="11 Kinds of Loneliness by Richard Yates; Creative Project for English Class">
+        <meta name="author" content="PotionPI, Cynthia Wu">
+        <meta name="keywords" content="Night,symbolic,11 Kinds of Loneliness by Richard Yates,Richard Yates,English Class,11th Grade">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="../Css/night_style.css" />
+        <link rel="stylesheet" type="text/css" href="../Css/apprehension_night.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="../Javascript/pieces_variables.js"></script>
+        <script src="../Javascript/pieces_button_functions.js"></script>
+        <script src="../Javascript/apprehension_night.js"></script>
+
+    </head>
+    <body>
+
+<!--+++ Don't touch below +++-->
+<!--Menu-->
+        <nav class="topnav" id="topnav">
+            <a href="index.html" class="navlogo"><img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/81e60180/resources/Night_logo.svg"></a>
+            <div class="wordnav">
+                <a href="10night_about.html" class="navlink About" style="color: #EEEEEE">About</a>
+                <a href="9night_puzzle.html" class="navlink Puzzle" style="color: #FFFFFF">Puzzle</a>
+                <a href="1night_serenity.html" class="navlink" style="color: #F8F9DE">Serenity</a>
+                <a href="2night_acceptance.html" class="navlink" style="color: #E7FFE3">Acceptance</a>
+                <a href="3night_apprehension.html" class="navlink Apprehension" style="color: #C4D2C7">Apprehension</a>
+                <a href="4night_distraction.html" class="navlink Distraction" style="color: #D2EED6">Distraction</a>
+                <a href="5night_pensiveness.html" class="navlink Pensiveness" style="color: #C9E3E2">Pensiveness</a>
+                <a href="6night_boredom.html" class="navlink Boredom" style="color: #E2C9E3">Boredom</a>
+                <a href="7night_annoyance.html" class="navlink Annoyance" style="color: #F5C6C7">Annoyance</a>
+                <a href="8night_interest.html" class="navlink Interest" style="color: #F6E1B0">Interest</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">&#9776;</a>
+        </nav>
+        <script>
+            function menuFunction() {
+                var x = document.getElementById("topnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <hr class="navhr">
+<!--End of Menu-->
+<!--Profile-->
+        <div class="profileDiv">
+            <img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/abb26e77/resources/Night_avatar.svg" alt="profile image for 11 Kinds of Loneliness">
+            <p><span class="About">1</span><span class="Puzzle">1</span> <span class="Serenity">K</span><span class="Acceptance">i</span><span class="Apprehension">n</span><span class="Distraction">d</span><span class="Pensiveness">s</span> <span class="Boredom">o</span><span class="Annoyance">f</span> <span class="Interest">L</span><span class="About">o</span><span class="Puzzle">n</span><span class="Serenity">e</class><span= class="Acceptance">l</span><span class="Apprehension">i</span><span class="Distraction">n</span><span class="Pensiveness"><span>e</span><span class="Bordeom">s</class><span class="Interest">s</span></p>
+        </div>
+<!--End of Profile-->
+<!--++++++-->
+
+
+<!--+++ Start Doing Stuff now ++-->
+<!--Main content-->
+        <div class="mainContent">
+
+            <h1 class="Apprehension">Apprehension</h1>
+            <div class="goading">
+                <p class="content" id="firstLine">Look, it's a door. I wonder what's behind it.<button id="firstLineButton" onclick="nextLineOne()"; this.onclick=null;>["What's inside this door?"]</button></p>
+                <p class="content" id="secondLine">Who knows. Maybe something wonderful. Maybe something very, very not wonderful.<button id="secondLineButton" onclick="nextLineTwo()"; this.onclick=null;>["???"]</button></p>
+                <p class="content" id="thirdLine">You can pass it by if you want- <button id="thirdLineButton" onclick="nextLineThree()"; this.onclick=null;>["Really?"]</button></p>
+                <p class="content" id="fourthLine">Of course, no one's watching after all. <button id="fourthLineButton" onclick="nextLineFour()"; this.onclick=null;>["But..."]</button></p>
+                <p class="content" id="fifthLine">What's this? A way out: <a href="innight.html" id="fifthLineButton" onclick="addApprehension()"; this.onclick=null;>[Skip Page]</a> <button id="fifthPlusLineButton" onclick="notSkipping()">No, I'm not skipping not matter what.</button></p>
+            <!--this above is pleasing others by pleasing yourself-->
+            </div>
+            
+            <div class="content" id="clickDoorStuff">
+                <hr>
+                <p class="content" id="firstClick">[...Oh?]</p>
+                <p class="content" id="secondClick">You're opening the door?</p>
+                <p class="content" id="thirdClick">So you are...?</p>
+                <!--In the above, the door has not opened. From next click on, door open-->
+                <button id="hideClick" onclick="openCountTestHideToggle()">Hide Part 2</button>
+                <button id="showClick" onclick="openCountTestShowToggle()">Show Part 2</button>
+            </div>
+
+            <div class="content" id="openedDoorFuzzies">
+                <hr>
+                <p class="content" id="oneFuzzy">And you stare into a long abyss of nothing.</p>
+                <p class="content" id="twoFuzzy">Are you sure you want to reach in?</p>
+                <p class="content" id="threeFuzzy">[...]</p>
+                <p class="content" id="fourFuzzy">You feel something fuzzy.</p>
+                <p class="content" id="fiveFuzzy">You pull it out--it's light. A puzzle piece!</p>
+                <button id="hideFuzzy" onclick="hidePartThree()">Hide Part 3</button>
+                <button id="showFuzzy" onclick="showPartThree()">Show Part 3</button>
+                <hr>
+            </div>
+            <div class="aDoor">
+<!--The open door image is below-->
+                <div class="doorOpen">
+                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2510 2710" preserveAspectRatio="none">
+                    <g class="firstDoorOpenLayer" id="firstDoorOpenLayer" fill="#9caa9f" stroke="none">
+                        <path d="M2375 2637 c-309 -196 -772 -501 -782 -515 -9 -11 -13 -65 -13 -184 0 -139 2 -168 14 -168 8 0 17 8 20 18 9 27 107 119 236 221 97 78 146 107 316 191 263 130 328 145 337 77 2 -18 4 69 3 193 -1 194 -3 225 -16 228 -9 1 -61 -26 -115 -61z"/>
+                        <path d="M2310 1668 c-29 -48 -33 -71 -21 -128 6 -28 8 -68 5 -88 -10 -69 35 -94 70 -39 18 27 30 240 14 270 -14 27 -46 20 -68 -15z"/>
+                        <path d="M2502 1072 c-2 -48 -8 -60 -56 -120 -118 -148 -277 -307 -371 -372 -76 -52 -228 -122 -299 -137 -39 -8 -98 -13 -131 -11 l-60 3 -3 -217 c-3 -236 -2 -237 51 -205 168 103 852 556 863 572 12 18 14 69 11 281 -1 142 -3 235 -5 206z"/>
+                    </g>
+                    <g class="secondDoorOpenLayer" id="secondDoorOpenLayer" fill="#c4d2c7" stroke="none">
+                        <path d="M2406 2329 c-21 -5 -129 -54 -240 -109 -170 -84 -219 -113 -316 -191 -131 -104 -235 -202 -256 -241 -12 -23 -14 -136 -14 -692 0 -648 1 -666 19 -676 76 -40 316 30 476 140 97 67 287 257 386 386 l40 52 0 662 c0 529 -3 665 -13 672 -16 9 -31 9 -82 -3z m-43 -772 c-3 -116 -13 -162 -36 -154 -7 2 -11 19 -10 38 1 19 -3 62 -9 97 -9 54 -8 69 7 103 12 26 24 39 34 37 14 -3 16 -21 14 -121z"/>
+                        <path d="M2495 600 c-4 -12 -5 -24 -2 -27 3 -2 8 5 12 17 4 12 5 24 2 27 -3 2 -8 -5 -12 -17z"/>
+                    </g>
+                </svg>
+                </div>
+<!--(end) The open door image-->
+
+
+<!--The hollow of the door image is below hollowCount()-->
+                <div class="doorHollow">
+                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="100 100 100 100" preserveAspectRatio="none">
+                    <g id="firstDoorHollowLayer" onclick="hollowCount()" fill="#839186" stroke="none">
+                        <path d="M10 1060 l0 -1050 790 0 790 0 -2 1048 -3 1047 -787 3 -788 2 0 -1050z"/>
+                    </g>
+                </svg>
+                </div>
+<!--(end) The hollow of the door image-->
+
+
+<!--apprehension fruit is below addApprehension()-->
+                <div class="apprehensionFruit">
+                    <img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/6e4fef5e/resources/apprehension_fruit.svg">
+                </div>
+<!--(end) apprehension fruit-->
+
+
+<!--The first closed door image is below openCount()-->
+                <div class="doorClosed">
+                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2510 2710" preserveAspectRatio="none">
+                    <g id="firstDoorClosedLayer" fill="#9caa9f" stroke="none" onclick="openCount()">
+                        <path d="M7 2103 c-4 -3 -6 -108 -5 -232 1 -124 3 -206 5 -183 4 41 7 45 49 63 68 30 211 57 399 73 94 9 228 21 298 27 235 22 579 -5 789 -62 l37 -10 4 -92 c2 -51 3 23 3 163 l-1 255 -786 3 c-432 1 -789 -1 -792 -5z"/>
+                        <path d="M242 1177 c-25 -26 -28 -58 -11 -107 9 -25 9 -41 0 -66 -19 -52 8 -94 60 -94 41 0 63 32 55 79 -4 26 -1 56 9 83 21 60 19 74 -12 103 -35 31 -73 32 -101 2z"/>
+                        <path d="M4 265 l1 -260 790 0 790 0 1 235 c1 129 -1 223 -3 209 -3 -21 -16 -32 -61 -52 -168 -73 -341 -113 -576 -132 -198 -17 -219 -16 -431 16 -163 24 -229 40 -382 90 l-122 41 -4 57 c-2 31 -3 -61 -3 -204z"/>
+                    </g>
+                    <g id="secondDoorClosedLayer" fill="#c4d2c7" stroke="none" onclick="openCount()">
+                        <path d="M720 1849 c-47 -5 -164 -16 -260 -25 -244 -21 -382 -49 -433 -86 -18 -13 -19 -56 -17 -1274 l0 -52 122 -40 c154 -51 220 -67 383 -91 212 -32 233 -33 431 -16 236 19 408 59 577 132 48 22 57 30 57 52 4 671 -2 1326 -11 1332 -18 11 -203 47 -299 59 -121 15 -450 20 -550 9z m-377 -674 c31 -29 33 -43 12 -103 -10 -27 -13 -57 -9 -83 8 -47 -14 -79 -55 -79 -52 0 -79 42 -60 94 9 25 9 41 0 66 -17 49 -14 81 11 107 28 30 66 29 101 -2z"/>
+                    </g>
+                </svg>
+                </div>
+<!--(end) The first closed door image-->
+
+            </div>
+
+            <p class="content" id="afterThing">You don't <em>need</em> to be here anymore.</p>
+
+
+
+
+        </div>
+<!--End of Main content-->
+<!--++++++-->
+    </body>
+</html>

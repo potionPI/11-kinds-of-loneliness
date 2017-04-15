@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Serenity</title>
+        <meta name="description" content="11 Kinds of Loneliness by Richard Yates; Creative Project for English Class">
+        <meta name="author" content="PotionPI, Cynthia Wu">
+        <meta name="keywords" content="Night,symbolic,11 Kinds of Loneliness by Richard Yates,Richard Yates,English Class,11th Grade">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="../Css/night_style.css" />
+        <link rel="stylesheet" type="text/css" href="../Css/serenity_night.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="../Javascript/pieces_variables.js"></script>
+        <script src="../Javascript/pieces_button_functions.js"></script>
+        <script src="../Javascript/serenity_night.js"></script>
+
+    </head>
+    <body>
+
+<!--+++ Don't touch below +++-->
+<!--Menu-->
+        <nav class="topnav" id="topnav">
+            <a href="index.html" class="navlogo"><img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/81e60180/resources/Night_logo.svg"></a>
+            <div class="wordnav">
+                <a href="10night_about.html" class="navlink About" style="color: #EEEEEE">About</a>
+                <a href="9night_puzzle.html" class="navlink Puzzle" style="color: #FFFFFF">Puzzle</a>
+                <a href="1night_serenity.html" class="navlink" style="color: #F8F9DE">Serenity</a>
+                <a href="2night_acceptance.html" class="navlink" style="color: #E7FFE3">Acceptance</a>
+                <a href="3night_apprehension.html" class="navlink Apprehension" style="color: #C4D2C7">Apprehension</a>
+                <a href="4night_distraction.html" class="navlink Distraction" style="color: #D2EED6">Distraction</a>
+                <a href="5night_pensiveness.html" class="navlink Pensiveness" style="color: #C9E3E2">Pensiveness</a>
+                <a href="6night_boredom.html" class="navlink Boredom" style="color: #E2C9E3">Boredom</a>
+                <a href="7night_annoyance.html" class="navlink Annoyance" style="color: #F5C6C7">Annoyance</a>
+                <a href="8night_interest.html" class="navlink Interest" style="color: #F6E1B0">Interest</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">&#9776;</a>
+        </nav>
+        <script>
+            function menuFunction() {
+                var x = document.getElementById("topnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <hr class="navhr">
+<!--End of Menu-->
+<!--Profile-->
+        <div class="profileDiv">
+            <img src="https://cdn.rawgit.com/potionPI/11-kinds-of-loneliness/abb26e77/resources/Night_avatar.svg" alt="profile image for 11 Kinds of Loneliness">
+            <p><span class="About">1</span><span class="Puzzle">1</span> <span class="Serenity">K</span><span class="Acceptance">i</span><span class="Apprehension">n</span><span class="Distraction">d</span><span class="Pensiveness">s</span> <span class="Boredom">o</span><span class="Annoyance">f</span> <span class="Interest">L</span><span class="About">o</span><span class="Puzzle">n</span><span class="Serenity">e</class><span= class="Acceptance">l</span><span class="Apprehension">i</span><span class="Distraction">n</span><span class="Pensiveness"><span>e</span><span class="Bordeom">s</class><span class="Interest">s</span></p>
+        </div>
+<!--End of Profile-->
+<!--++++++-->
+
+
+<!--+++ Start Doing Stuff now ++-->
+<!--Main content-->
+        <div class="mainContent">
+            <h1 class="Serenity">Serenity</h1>
+            <p class="content"><span onclick="addaSerenity(); this.onclick=null;" class="Serenity">[Serenity]</span> falls in the same vein as <span onclick="addaJoy(); this.onclick=null;" class="Joy">[Joy]</span> and <span onclick="addaEcstacy(); this.onclick=null;" class="Ecstacy">[Ecstacy]</span>.</p>
+            <p class="content" id="poem"><span onclick="addbSerenity(); this.onclick=null;" id="poemSerenity" class="Serenity">[Serenity]</span> is the least emotional.<br><span onclick="addbJoy(); this.onclick=null;" id="poemJoy" class="Joy">[Joy]</span> follows.<br><span onclick="addbEcstacy(); this.onclick=null;" id="poemEcstasy" class="Ecstacy">[Ecstacy]</span>, does anyone show it?<br>Perhaps in the quiet-<br>-of a late night.</p>
+            <button onclick="addSerenity()"></button>
+        </div>
+<!--End of Main content-->
+<!--++++++-->
+    </body>
+</html>
